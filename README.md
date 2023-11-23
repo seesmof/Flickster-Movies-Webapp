@@ -2,17 +2,16 @@
 
 <div align="center">
   <a href="https://github.com/seesmof/">
-    <img src="./logo.png" alt="Logo" height="80">
+    <img src="./public/cinema.png" alt="Logo" height="80">
   </a>
 
-<h1 align="center">Flickster - Advanced Movie Browser</h1>
+<h1 align="center">Flickster - Movie Catalog</h1>
 </div>
 
 ## Table of contents
 
 - [Table of contents](#table-of-contents)
 - [About](#about)
-- [Screenshots](#screenshots)
 - [Links](#links)
 - [License](#license)
 
@@ -37,12 +36,6 @@ Flickster is built with the following technologies:
 Flickster is a final course project on a university discipline called "Web Technology and Web Design". It was created by [seesmof](https://github.com/seesmof), a passionate movie lover and aspiring web developer.
 
 I hope you enjoy using Flickster as much as I enjoyed creating it. If you have any feedback or suggestions, please feel free to contact me or open an issue on GitHub. Thank you!
-
-## Screenshots
-
-![The app in mobile view](./public/mobile.png)
-
-![The app in desktop view](./public/desktop.png)
 
 ## Links
 
