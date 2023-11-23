@@ -39,7 +39,7 @@ I hope you enjoy using Flickster as much as I enjoyed creating it. If you have a
 
 ## Links
 
-- [Live Preview](https://seesmof.github.io/flickster-movie-browser/)
+- [Live Preview](https://flickster-movie-browser.vercel.app/)
 - [Icon](https://www.flaticon.com/)
 
 ## License
