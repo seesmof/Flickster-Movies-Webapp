@@ -13,8 +13,8 @@ const HomeSection = ({ heading, isLoading, movies, sectionLink }) => {
 
   return (
     <section className="grid">
-      <div className="flex items-center justify-between">
-        <h2 className="font-bold pb-4 md:pb-6 md:pt-4 text-xl md:text-2xl text-neutral-50">
+      <div className="flex items-center justify-between pb-4 md:pb-6 md:pt-4">
+        <h2 className="font-bold text-xl md:text-2xl text-neutral-50">
           {heading}
         </h2>
         <Link
