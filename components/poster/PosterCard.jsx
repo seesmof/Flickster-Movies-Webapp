@@ -5,12 +5,17 @@ const PosterCard = ({ image, name, media_type, release_year, id, rating }) => {
     <>
       <Link href="/movies/[id]" as={`/movies/${id}`} className="grid gap-2">
         <div className="relative duration-300 active:scale-95 group w-full rounded-xl overflow-hidden mb-1">
-          <div className="absolute inset-0 bg-neutral-800 group-hover:bg-opacity-50 bg-opacity-0 duration-300 w-full h-full flex items-center justify-center">
+          <div className="absolute inset-0 bg-neutral-800 group-hover:bg-opacity-50 bg-opacity-0 duration-300 w-full h-full hidden items-center justify-center md:flex">
             <p
               className={
                 "group-hover:opacity-100 opacity-0 text-white font-bold duration-300 text-xl"
               }
             >
+              {Math.round(rating * 10) / 10}
+            </p>
+          </div>
+          <div className="absolute inset-0 w-full h-full flex items-end p-3 bg-gradient-to-bl from-transparent to-neutral-800/80 md:hidden">
+            <p className={"text-white font-bold text-xl"}>
               {Math.round(rating * 10) / 10}
             </p>
           </div>
